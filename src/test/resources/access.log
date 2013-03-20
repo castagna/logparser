@@ -1,0 +1,4 @@
+1.22.333.444 - - [25/Feb/2013:00:00:00 +0100] "GET /img/favicon.ico HTTP/1.1" 200 921 907 "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)" <SITESERVER=ID=0000000000000000000123> <-> "-" 80
+1.22.333.444 - - [24/Feb/2013:23:59:38 +0100] "GET /jsp/user.do?XXXX
+1.22.333.444 - - [25/Feb/2013:00:00:00 +0100] "GET /jsp/foo.do?bar=123 HTTP/1.1" 200 256 123456 "Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.9.2.17) Gecko/20110420" <SITESERVER=ID=0000000000000000000123; JSESSIONID=adhfafdua134913241324; foo=bar> <-> "http://www.example.com/from/here" 80
+1.22.333.444 foo bar [25/Feb/2013:00:00:00 +0100] "POST /jsp/login.do HTTP/1.1" 302 - 123456 "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.3) Gecko/20060426 Firefox/1.5.0.3" <-> <SITESERVER=ID=0000000000000000000123> "-" 80
